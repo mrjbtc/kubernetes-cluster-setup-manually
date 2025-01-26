@@ -1,0 +1,10 @@
+# populate each machine in /etc/hosts
+# Update the private ips relative to your setup
+# IP HOST_NAME ALIAS
+
+# private host name
+172.31.19.218 server.kubernetes.local kubernetes-lb
+172.31.23.17 ip-172-31-23-17.eu-west-1.compute.internal control-plane-1
+172.31.34.20 ip-172-31-34-20.eu-west-1.compute.internal control-plane-2
+172.31.18.120 ip-172-31-18-120.eu-west-1.compute.internal worker-node-1 172.31.16.0/20
+172.31.37.192 ip-172-31-37-192.eu-west-1.compute.internal worker-node-2 172.31.32.0/20

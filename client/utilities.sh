@@ -1,0 +1,1 @@
+sudo apt-get -y install wget curl vim openssl
