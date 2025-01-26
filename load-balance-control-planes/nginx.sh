@@ -5,8 +5,9 @@ sudo apt-get install -y nginx
 sudo systemctl enable nginx
 sudo mkdir -p /etc/nginx/tcpconf.d
 
-
-sudo echo "include /etc/nginx/tcpconf.d/*;" >> /etc/nginx/nginx.conf
+# Add this 
+# include /etc/nginx/tcpconf.d/*;
+# in /etc/nginx/nginx.conf
 
 CONTROL_PLANE_1_PRIVATE_IP="172.31.23.17"
 CONTROL_PLANE_2_PRIVATE_IP="172.31.34.20"
