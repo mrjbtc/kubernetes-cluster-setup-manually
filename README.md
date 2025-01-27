@@ -25,7 +25,7 @@ Pick one instace as a jump host to install these `client/utilities.sh` and `clie
 
 <h2>Update /etc/hosts</h2>
    
-   Update `/etc/hosts` in all instances with `/hosts/hosts.txt` and make sure to update the values relative to the correct ips and host names.
+   Update `/etc/hosts` in all instances with `hosts/hosts.txt` and make sure to update the values relative to the correct ips and host names.
 
 <h2>Load balance the two control planes</h2>
 
