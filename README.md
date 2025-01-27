@@ -63,7 +63,7 @@ controller-manager   Healthy   ok
 
 <h2>Worker Nodes</h2>
 
-1. Download worker nodes components in `worker-nodes/components.sh`.
+1. Download worker node components in `worker-nodes/components.sh`.
 2. Create `config.toml` and unit file for `containerd` `worker-nodes/containerd.sh`.
 3. Create `bridge.conf` and `loopback.conf` `worker-nodes/worker-node-1-network.sh`.
 4. Generate kube-config `worker-nodes/worker-node-1-network.sh`.
