@@ -14,6 +14,3 @@ resources:
               secret: ${ENCRYPTION_KEY}
       - identity: {}
 EOF
-
-
-# Copy encryption-config.yaml to control-plane-1 and 2:
